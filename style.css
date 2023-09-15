@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(circle, rgba(214, 146, 21, 0.692)50%, rgba(206, 193, 17, 0.692)),
+    url(img/background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+.navigate{
+    box-shadow: 0 4px 4px 0 rgba(233, 235, 165, 0.67), 0 4px 20px 0 rgba(87, 87, 87, 0.67);
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+    margin: 0%;
+    padding-top: 10px;
+}
+.bar{
+    margin-left: 47%;
+    padding-top: 10px;
+}
+.bar a{
+    color: white;
+    height: 10px;
+    border-right: 2px solid white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    
+}
+.men a img{
+margin-right: 40px;
+}
+.men .btn{
+    height: 40px;
+    width: 30%;
+    margin-right: 10px;
+}
+.logo img{
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+.bar a:hover{
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     text-align: center;
+     font-size: 22px;
+}
+.backg{
+    height: 70vh;
+width: 99%;
+margin-left: auto;
+margin-right: auto;
+background:transparent;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* foods-container */
+.bodya{
+margin-top: 33px;
+height: 80vh;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+background: transparent;
+}
+
+h2{
+    margin-left: 30%;
+    padding-top: 25%;
+    
+}
+input{
+    color: white;
+    padding: 2px 10px;
+    height: 50px;
+    width: 50%;
+    border: none;
+    
+    border-bottom:2px solid black;
+    background: none;
+}
+.bodya .box1{
+height: 30vh;
+width: 23%;
+float: left;
+border-radius: 10px;
+background: url(img/background.png);
+background-size: cover;
+margin-right: 0.9%;
+position:relative;
+transition: 0.6s;
+}
+.bodya .box2{
+    height: 30vh;
+width: 23%;
+float: left;
+border-radius: 10px;
+background: url(img/background.png);
+background-size: cover;
+margin-right: 0.9%;
+position:relative;
+transition: 0.6s;
+    }
+.bodya .box3{
+height: 30vh;
+width: 23%;
+float: left;
+border-radius: 10px;
+background: url(img/background.png);
+background-size: cover;
+margin-right: 0.9%;
+position:relative;
+transition: 0.6s;
+        }
+.bodya .box4{
+    height: 30vh;
+width: 23%;
+float: left;
+border-radius: 10px;
+background: url(img/background.png);
+background-size: cover;
+margin-right: 0.9%;
+position:relative;
+transition: 0.6s;
+            }
+ .bodya .box5{
+margin-top: 50px;
+margin-bottom: 50px;
+ height: 30vh;
+ width: 23%;
+float: left;
+border-radius: 10px;
+background: url(img/background.png);
+background-size: cover;
+margin-right: 0.9%;
+position:relative;
+transition: 0.6s;
+}
+.bodya .box6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+     height: 30vh;
+     width: 23%;
+    float: left;
+    border-radius: 10px;
+    background: url(img/background.png);
+    background-size: cover;
+    margin-right: 0.9%;
+    position:relative;
+    transition: 0.6s;
+    }
+    .bodya .box7{
+        margin-top: 50px;
+        margin-bottom: 50px;
+         height: 30vh;
+         width: 23%;
+        float: left;
+        border-radius: 10px;
+        background: url(img/background.png);
+        background-size: cover;
+        margin-right: 0.9%;
+        position:relative;
+        transition: 0.6s;
+        }
+        .bodya .box8{
+            margin-top: 50px;
+            margin-bottom: 50px;
+             height: 30vh;
+             width: 23%;
+            float: left;
+            border-radius: 10px;
+            background: url(img/background.png);
+            background-size: cover;
+            margin-right: 0.9%;
+            position:relative;
+            transition: 0.6s;
+            }
+
+/* ordernow */
+     .bodya h1{
+        color: white;
+        text-align: center;
+        padding-top: 35%;
+        
+    }
+
+    h1 a{
+        border: 2px solid white;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 14px;
+        margin-top: 50%;
+        padding: 3px;
+        color: aliceblue;
+        background: rgba(128, 128, 128, 0.589);
+        transition: 0.5s;
+    }
+    h1 a:hover{
+        color: black;
+        background: rgba(255, 255, 255, 0.808);
+        font-size: 25px;
+        padding: 3px;
+        border: 2px solid blueviolet;
+    }
+    .footri{
+        height: 50vh;
+        width: 100%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.705)), url(img/aboutus.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h3{
+        padding-top: 15px;
+        color: blueviolet;
+        text-align: center;
+    }
+    .abts{
+        color: white;
+        text-align: center;
+    }
+    .Contact{
+        padding-top: 15px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+    a{
+        
+        text-decoration: none;
+        font-size: 18px;
+        color: blueviolet;
+    }
